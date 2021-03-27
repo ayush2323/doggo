@@ -1,5 +1,7 @@
-* {
-    background-color: white;
+html {
+    background-image: linear-gradient(pink, white);
+    height: 100vh;
+    /* background-color: pink; */
 }
 
 .container {
@@ -9,9 +11,48 @@
     flex-direction: column;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+.dropdown_div {
+    width: 30rem;
+    /* height: 25px; */
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+}
+
+select {
+    padding: 5px;
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    outline: none;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+option {
+    padding: 1rem;
+    font-size: 1.4rem;
+    position: absolute;
+}
+
 .img-div{
-    width: 200px;
-    height: 200px;
     margin-top: 80px;
-    /* left: 20px */
+}
+
+img {
+    position: relative;
+    width: 600px;
+    height: 500px;
+}
+
+#loading {
+    font-size: 100px;
 }
